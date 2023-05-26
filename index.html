@@ -4,7 +4,9 @@
         <title>exverge.xyz</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
+        <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="bootstrap.bundle.min.js"></script>
+        <!--<style>
             body {
                 font-family: Arial, Helvetica, sans-serif;
                 background-color: gray
@@ -48,16 +50,31 @@
                 background-color: #ddd;
                 color: black;
             }
-        </style>
+        </style>-->
     </head>
-    <body style="margin: 0;">
-        <div class="navigation">
-            <a href="https://github.com/xverge" class="right">GitHub</a>
-          </div>
-        <div class="header">
-            <h1>Exverge</h1>
-            <p> Hey there. I'm Exverge I guess. Backend developer that sometimes does frontend (but I'm not very good)</p>
-            <p>Proficent at Rust, Java, and C++, and used to proficent at C#.</p>
+    <body data-bs-theme="dark" class="bg-light-subtle">
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">exverge.xyz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/xverge">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+        <div class="container-fluid">
+            <h2 class="text-center text-light-emphasis">i'm exverge.</h2>
+            <p class="text-center fs-3 text-secondary">or not. maybe i'm xverge.</p>
+            <p class="text-center fs-3 text-secondary-emphasis">i make and program cool stuff sometimes; else i'm procrastinating</p>
         </div>
     </body>
 </html>
